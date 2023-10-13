@@ -14,5 +14,7 @@ function addTask(){
         li.appendChild(span);
     }
     inputBox.value = ""; //clears the value inside the list
+
+
 }
 
