@@ -21,8 +21,16 @@
     border-radius: 10px;
 }
 
+#card {
+    backdrop-filter: blur(7px) saturate(200%);
+    -webkit-backdrop-filter: blur(7px) saturate(200%);
+    background-color: rgba(64, 68, 78, 0.51);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
 .todo-app h2{
-    color: #002765;
+    color: #ffff;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -85,7 +93,7 @@ ul li::before{
 }
 
 ul li.checked{
-    color: #555;
+    color: #cdcdcd;
     text-decoration: line-through;
 }
 
@@ -100,7 +108,7 @@ ul li span{
     width: 40px;
     height: 40px;
     font-size: 22px;
-    color: #555;
+    color: #cdcdcd;
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
@@ -108,4 +116,9 @@ ul li span{
 
 ul li span:hover {
  background: #edeef0;
+    color: #555;
+}
+
+#list-container{
+    color: white;
 }
